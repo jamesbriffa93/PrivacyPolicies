@@ -1,0 +1,31 @@
+## Xing Mandarin: Privacy policy
+
+Welcome to the Xing mandarin app for Android!
+
+This is an open source Android app developed by James Briffa and Alistair Kenyon Brody (Rise and Make) 
+
+
+### Data collected by the app
+
+I hereby state, to the best of my knowledge and belief, that I have not programmed this app to collect any personally identifiable information. All data (app preferences (like theme) and alarms) created by the you (the user) is stored locally in your device only, and can be simply erased by clearing the app's data or uninstalling it. No analytics software is present in the app either.
+
+### Explanation of permissions requested in the app
+
+The list of permissions required by the app can be found in the `AndroidManifest.xml` file:
+
+https://github.com/WrichikBasu/ShakeAlarmClock/blob/d7f323c7769ad600d4f97eb499f3d7fa34a2a1fc/app/src/main/AndroidManifest.xml#L21-L38
+<br/>
+
+| Permission | Why it is required |
+ACCESS_NETWORK_STATE
+INTERNET
+
+We simply need access to the internet in order to download the class files.
+
+ <hr style="border:1px solid gray">
+
+If you find any security vulnerability that has been inadvertently caused by me, or have any question regarding how the app protectes your privacy, please send me an email or post a discussion on GitHub, and I will surely try to fix it/help you.
+
+Yours sincerely,  
+James Briffa
+james_devil12@hotmail.com
